@@ -1,0 +1,57 @@
+.container {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 200vh;
+    width: 200vh;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;    
+  }
+  
+  .square {
+    width: 5em;
+    height: 5em;
+    background-color: #ff0000;
+    border: 1px solid #fff;
+  }
+
+  #blue {
+    background-color: blue;
+  }
+
+  #green {
+    background-color: green;
+  }
+
+  #yellow {
+    background-color: yellow;
+  }
+  
+  .top-left, .top-right, .bottom-left, .bottom-right {
+    border: 1px solid #000;
+  }
+  
+  .top-left {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+  }
+  
+  .top-right {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  
+  .bottom-left {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+  }
+  
+  .bottom-right {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
